@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FavWheels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="swiper-master/dist/css/swiper.min.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <section class="sidebar" id="sidebar">
+            <div class="inner-sidebar">
+                <ul>
+                    <li>Brands</li>
+                    <li>Categories</li>
+                    <li>Warranty</li>
+                    <li>Testimonals</li>
+                    <li>Booking</li>
+                    <li>Issue points</li>
+                    <li>Complain</li>
+                </ul>
+            </div>
+        </section>
+        <section class="content" id="content">
+            <header>
+                <nav class="head-nav" id="top-head-nav">
+                    <div class="top-head-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" height="61.03219108581543" width="257.1199951171875"><defs id="SvgjsDefs2410"></defs><g id="SvgjsG2411" rel="mainfill" name="main_text" xmlns:name="main_text" transform="translate(0,-178.96780891418456)" fill="#002F2F"><path d="M10.40 240L10.40 233.06L6.94 233.06L6.94 230.29L16.96 230.29L16.96 224.05L6.94 224.05L6.94 220.93L19.07 220.93L19.07 225.64L26.01 225.64L26.01 213.99L0 213.99L0 240ZM40.68 240L40.68 233.06L35.82 233.06L35.82 230.29L47.96 230.29L47.96 233.06L43.11 233.06L43.11 240L54.90 240L54.90 213.99L35.82 213.99L28.89 220.93L28.89 240ZM47.96 220.93L47.96 224.05L35.82 224.05L35.82 220.93ZM83.79 220.93L83.79 213.99L72.00 213.99L72.00 220.93L76.12 220.93L71.37 230.88L65.41 213.99L57.78 213.99L66.97 240L74.60 240L83.75 220.93ZM105.74 240L112.68 240L112.68 213.99L101.58 213.99L101.58 220.93L105.74 220.93L105.74 231.33L102.62 229.35L102.62 224.39L96.38 224.39L96.38 229.49L93.60 231.33L93.60 220.93L97.76 220.93L97.76 213.99L86.67 213.99L86.67 240L93.60 240L99.53 236.08ZM127.35 240L127.35 233.06L122.49 233.06L122.49 230.29L134.63 230.29L134.63 233.06L129.77 233.06L129.77 240L141.57 240L141.57 213.99L129.77 213.99L129.77 220.93L134.63 220.93L134.63 224.05L122.49 224.05L122.49 220.93L127.35 220.93L127.35 213.99L115.56 213.99L115.56 240ZM161.40 230.29L161.40 224.05L151.38 224.05L151.38 220.93L163.52 220.93L163.52 225.64L170.45 225.64L170.45 213.99L144.44 213.99L144.44 240L170.45 240L170.45 228.07L163.52 228.07L163.52 233.06L151.38 233.06L151.38 230.29ZM190.29 230.29L190.29 224.05L180.27 224.05L180.27 220.93L192.41 220.93L192.41 225.64L199.34 225.64L199.34 213.99L173.33 213.99L173.33 240L199.34 240L199.34 228.07L192.41 228.07L192.41 233.06L180.27 233.06L180.27 230.29ZM209.16 233.06L209.16 220.93L212.63 220.93L212.63 213.99L202.22 213.99L202.22 240L228.23 240L228.23 228.35L221.30 228.35L221.30 233.06ZM250.19 240L257.12 233.06L257.09 233.06L241.86 220.93L250.19 220.93L250.19 225.64L257.12 225.64L257.12 213.99L238.05 213.99L231.11 220.93L246.34 233.06L238.05 233.06L238.05 228.07L231.11 228.07L231.11 240Z" fill="#002F2F" style="fill: rgb(34, 34, 34);"></path></g><g id="SvgjsG2412" rel="mainfill" name="symbol" xmlns:name="symbol_mainfill" transform="translate(81.05999755859375,-38.36480255126953) scale(1.9)" fill="#002F2F"></g></svg>
+                    </div>
+                    <div class="container">
+                        <button class="menu-toggle" id="menu-toggler">
+                            <span id="ham" class="hamburger"></span>
+                        </button>
+                        <button class="menu-toggle-mobile" id="menu-toggler-mobile">
+                            <span id="ham-mobile" class="hamburger"></span>
+                        </button>
+                        <div class="general-info-block">
+                            <span class="general-info-text">Contact us</span>
+                            <span class="general-info-secondary-text">youremail@gmail.com</span>
+                        </div>
+                        <div class="general-info-block">
+                            <span class="general-info-text">Our rewards</span>
+                            <span class="general-info-secondary-text">Top1 Wheels Dealer of the 2018</span>
+                        </div>
+                        <div class="general-info-block">
+                            <span class="general-info-text">Our office</span>
+                            <span class="general-info-secondary-text">Nevada, Castle Road 9</span>
+                        </div>
+                        <div class="learn-more-block" id="info-toggler">
+                            <i class="fas fa-info" id="chevron"></i>
+                        </div>
+                    </div>
+                </nav>
+                <nav class="menu" id="menu">
+                    <div class="container">
+                        <ul>
+                            <li><a href="catalog.html">Catalog</a></li>
+                            <li><a href="#">Categories</a></li>
+                            <li><a href="#">Custom</a></li>
+                            <li><a href="#">Warranty</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">Issue points</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="about-block" id="about-block">
+                    <div class="container">
+                        <article>
+                            Favourite Wheels Entertainment Limited Liability Company. Founded on 19th March 2001 ( 18 years ). All rights reserved.
+                        </article>
+                    </div>
+                </div>
+            </header>
+            <section class="main-content" id="main-content">
+                <section class="catalog-body">
+                    <div class="container">
+                        <section class="catalog-category">
+                            <div class="category-name">
+                                <span>Rims</span>
+                            </div>
+                            <div class="category-body">
+                                <div class="category-brand">
+                                    <div class="brand-name">
+                                        <img src="img/vossen_logo.png" alt="">
+                                    </div>
+                                    <div class="brand-things">
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/vossen1.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Vossen VWS-1</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>18" | 19" | 20"| 21" radius</p>
+                                                        <p>Tinted Matte Gunmetal, Tinted Matte Gunmetal</p>
+                                                        <p>Vossen Hybrid Forged Series</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>422.00$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/vossen2.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Vossen VFS-1</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>20" | 21" radius</p>
+                                                        <p>Tinted Matte Gunmetal, Tinted Matte Gunmetal</p>
+                                                        <p>Vossen Hybrid Forged Series</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>399.99$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/vossen3.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Vossen S21-01</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>18" | 19" | 21" radius</p>
+                                                        <p>Tinted Matte Gunmetal, Tinted Matte Gunmetal</p>
+                                                        <p>Vossen Hybrid Forged Series</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>599.99$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/vossen4.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Vossen VFS-10</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>20" | 21" | 22"| 24" radius</p>
+                                                        <p>Tinted Matte Gunmetal, Tinted Matte Gunmetal</p>
+                                                        <p>Vossen Hybrid Forged Series</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>401.69$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/vossen5.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Vossen CV3-R</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>19" | 20" | 21" radius</p>
+                                                        <p>Tinted Matte Gunmetal, Tinted Matte Gunmetal</p>
+                                                        <p>Vossen Hybrid Forged Series</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>387.19$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/vossen6.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Vossen CVT</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>19" | 20" | 22" | 24" radius</p>
+                                                        <p>Tinted Gloss Black, Silver Metallic</p>
+                                                        <p>Vossen CV Series</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>400.09$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="view-more-things">View 100 more</button>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="catalog-category">
+                            <div class="category-name">
+                                <span>Tires</span>
+                            </div>
+                            <div class="category-body">
+                                <div class="category-brand">
+                                    <div class="brand-name">
+                                        <img src="img/falken_logo.png" alt="">
+                                    </div>
+                                    <div class="brand-things">
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/falken_tire.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Falken Azenis FK510</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>Summer tire</p>
+                                                        <p>Speed Index: ZR / Y</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>127.00$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/falken_tire.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Falken Ziex ZE310VC</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>Summer tire</p>
+                                                        <p>Speed Index: H, V, W</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>109.09$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/falken_tire.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Falken Sincera SN832EC</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>Summer tire</p>
+                                                        <p>Speed Index: T</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>151.49$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/falken_tire.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Falken Azenis FK453</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>Summer tire</p>
+                                                        <p>Speed Index: W, Y</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>147.79$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/falken_tire.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Falken Ziex ZE914EC</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>Summer tire</p>
+                                                        <p>Speed Index: H, V, W</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>100.00$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="brand-things-card">
+                                            <div class="brand-photo-section">
+                                                <img src="img/falken_tire.png" alt="">
+                                            </div>
+                                            <div class="brand-text-section">
+                                                <div class="thing-name">
+                                                    <span>Falken Sincera SN828</span>
+                                                </div>
+                                                <div class="thing-desc">
+                                                    <article>
+                                                        <p>Summer tire</p>
+                                                        <p>Speed Index: S, T</p>
+                                                    </article>
+                                                </div>
+                                                <div class="thing-button-block">
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fas fa-shopping-cart"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-balance-scale"></i>
+                                                    </button>
+                                                    <button class="thing-btn">
+                                                        <i class="fas fa-angle-right"></i>
+                                                    </button>
+                                                    <div class="price">
+                                                        <span>117.19$</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="view-more-things">View 100 more</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <footer>
+                    <section class="footer-sect">
+                    <span class="string">Feedback</span>
+                    <span class="string">About us</span>
+                    <span class="string">Complain</span>
+                    <span class="string">License</span>
+                    <span class="string">Awards</span>
+                    <span class="string">Map</span>
+                    </section>
+                    <section class="footer-sect social-sect">
+                        <a href="https://facebook.com">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://linkedin.com">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://instagram.com">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://reddit.com">
+                            <i class="fab fa-reddit"></i>
+                        </a>
+                        <a href="https://youtube.com">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </section>
+                    <section class="footer-sect">
+                         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" height="131.55320434570314" width="207.25482177734375"><defs id="SvgjsDefs1414"></defs><g id="SvgjsG1415" rel="mainfill" name="main_text" xmlns:name="main_text" transform="translate(0,-108.44679565429686)" fill="#ffffff"><path d="M7.70 198.50L19.46 198.50L19.46 196.23L7.70 196.23L7.70 193.02L19.46 193.02L19.46 190.81L0 190.81L0 240L2.22 240L2.22 213.96L7.70 213.96L19.46 213.96L19.46 211.80L7.70 211.80ZM2.22 211.80L2.22 198.50L5.54 198.50L5.54 211.80ZM2.22 196.23L2.22 193.02L5.54 193.02L5.54 196.23ZM5.54 240L7.70 240L7.70 219.44L19.46 219.44L19.46 217.22L7.70 217.22L5.54 217.22ZM24.07 220.48L35.09 220.48L35.09 218.45L24.07 218.45ZM60.58 225.35L60.58 229.78L60.58 236.49L57.44 230.40L57.44 223.68L57.44 219.19L57.44 190.81L55.35 190.81L55.35 215.13L51.90 206.51L48.58 214.76L48.58 190.81L46.48 190.81L46.48 218.88L46.48 223.32L48.58 219.25L51.90 212.79L55.35 219.56L55.35 226.27L51.90 219.50L48.58 225.96L46.48 230.03L43.34 236.18L43.34 229.47L43.34 224.98L43.34 190.81L41.25 190.81L41.25 229.04L41.25 233.54L41.25 240L41.37 240L43.65 240L46.48 234.52L48.58 230.40L51.90 223.93L55.35 230.76L57.44 234.83L60.09 240L62.43 240L62.68 240L62.68 233.90L62.68 229.41L62.68 190.81L60.58 190.81ZM90.01 190.87L90.01 219.13L86.69 219.13L86.69 190.87L84.47 190.87L84.47 219.13L77.82 219.13L77.82 190.87L75.61 190.87L75.61 219.13L72.28 219.13L72.28 190.87L70.06 190.87L70.06 240L72.28 240L72.28 226.89L75.61 226.89L75.61 240L77.82 240L77.82 226.89L84.47 226.89L84.47 240L86.69 240L86.69 224.67L72.28 224.67L72.28 221.35L90.01 221.35L90.01 240L92.23 240L92.23 190.87ZM120.12 192.96L120.12 190.81L100.85 190.81L100.85 237.85L100.85 240L120.12 240L120.12 237.85L108.48 237.85L108.48 234.58L120.12 234.58L120.12 232.37L108.48 232.37L108.48 219.31L120.12 219.31L120.12 217.16L106.27 217.16L106.27 232.37L103.00 232.37L103.00 213.90L120.12 213.90L120.12 211.74L108.48 211.74L108.48 198.44L120.12 198.44L120.12 196.23L106.27 196.23L106.27 211.74L103.00 211.74L103.00 192.96ZM103.00 237.85L103.00 234.58L106.27 234.58L106.27 237.85ZM147.64 192.96L147.64 190.81L128.37 190.81L128.37 237.85L128.37 240L147.64 240L147.64 237.85L136.00 237.85L136.00 234.58L147.64 234.58L147.64 232.37L136.00 232.37L136.00 219.31L147.64 219.31L147.64 217.16L133.79 217.16L133.79 232.37L130.52 232.37L130.52 213.90L147.64 213.90L147.64 211.74L136.00 211.74L136.00 198.44L147.64 198.44L147.64 196.23L133.79 196.23L133.79 211.74L130.52 211.74L130.52 192.96ZM130.52 237.85L130.52 234.58L133.79 234.58L133.79 237.85ZM167.03 234.58L177.38 234.58L177.38 232.49L167.03 232.49L163.40 232.49L163.40 229.04L163.40 190.87L161.31 190.87L161.31 229.04L161.31 232.49L157.98 232.49L157.98 190.87L155.89 190.87L155.89 240L161.31 240L163.40 240L177.38 240L177.38 237.91L163.40 237.91L163.40 234.58ZM161.31 237.91L157.98 237.91L157.98 234.58L161.31 234.58ZM205.88 197.64C205.45 196.84 204.71 195.98 203.60 194.93C202.68 194.13 201.82 193.39 200.77 192.84C198.74 191.61 196.28 190.87 193.81 190.87C192.58 190.87 191.41 191.05 190.24 191.30C189.07 191.61 187.97 192.04 186.80 192.72C184.58 194.01 182.92 195.79 181.75 198.13C180.58 200.41 180.21 203.06 180.64 205.58C181.07 208.23 182.24 210.51 183.90 212.23C186.55 215.13 190.18 216.60 193.63 218.64C195.05 219.44 196.28 220.30 197.32 221.22C198.31 222.15 198.92 223.01 199.23 223.87C199.54 224.79 199.60 225.90 199.36 227.19C199.17 228.30 198.74 229.29 198.06 230.09C196.77 231.75 194.55 232.43 192.15 232.00C189.75 231.57 187.53 230.09 185.63 227.93L183.96 229.41C186.12 231.81 188.83 233.72 191.78 234.21C193.26 234.46 194.74 234.34 196.22 233.90C197.69 233.41 198.86 232.61 199.79 231.50C200.71 230.40 201.33 229.10 201.57 227.56C201.82 225.90 201.76 224.48 201.33 223.19C200.40 220.48 197.63 218.45 194.74 216.73C192.46 215.31 190.06 214.20 187.84 212.73C187.04 212.23 186.30 211.56 185.56 210.76C184.09 209.22 183.16 207.43 182.79 205.28C182.49 203.12 182.79 201.03 183.72 199.12C184.64 197.21 186.06 195.67 187.90 194.62C188.83 194.13 189.81 193.70 190.80 193.45C191.78 193.21 192.77 193.09 193.81 193.09C195.91 193.09 197.88 193.64 199.66 194.75C200.46 195.18 201.26 195.79 202.06 196.53L203.11 197.64C203.42 198.07 203.73 198.38 204.04 198.87ZM201.20 200.66C199.85 198.13 196.71 196.41 193.81 196.41C192.28 196.41 190.92 196.78 189.63 197.52C188.34 198.20 187.41 199.18 186.73 200.60C186.06 201.95 185.87 203.31 186.12 204.72C186.30 206.14 186.92 207.37 188.03 208.54C188.83 209.34 189.69 210.02 190.67 210.57L191.84 211.25C193.38 212.17 194.92 212.97 196.46 213.90C198.00 214.82 199.54 215.80 201.02 217.10C202.43 218.39 203.79 220.05 204.47 222.08C205.14 224.05 205.14 226.21 204.84 228.12C204.53 230.09 203.73 232.00 202.31 233.66C201.02 235.26 199.29 236.37 197.26 237.04C195.29 237.72 193.20 237.78 191.23 237.48C189.26 237.17 187.41 236.37 185.75 235.32C184.21 234.34 182.73 233.10 181.44 231.63L179.78 233.04C181.19 234.71 182.79 236.06 184.58 237.23C186.49 238.46 188.58 239.26 190.86 239.69C193.26 240.12 195.66 239.94 197.94 239.14C200.34 238.34 202.37 236.98 204.04 235.07C205.70 233.17 206.68 230.83 206.99 228.43C207.17 227.38 207.30 226.21 207.24 225.04C207.17 223.81 206.99 222.58 206.56 221.35C206.13 220.18 205.51 219.07 204.84 218.02C204.10 217.04 203.30 216.23 202.50 215.50C200.83 214.02 199.29 212.97 197.63 211.99C195.97 211.00 194.43 210.20 192.95 209.28C191.04 208.11 190.37 207.80 189.63 207.00C188.95 206.20 188.46 205.34 188.27 204.35C188.15 203.37 188.27 202.44 188.70 201.58C189.14 200.66 189.81 199.98 190.74 199.43C191.66 198.87 192.71 198.63 193.81 198.63C195.97 198.63 198.06 199.92 199.36 201.83Z" fill="#ffffff" style="fill: rgb(255, 255, 255);"></path></g><g id="SvgjsG1416" rel="mainfill" name="symbol" xmlns:name="symbol_mainfill" transform="translate(43.6276575088501,-30.07199935913085) scale(1.2)" fill="#ffffff"><polygon points="47.526,81.196 59.086,65.618 47.526,50.041 35.966,50.041 47.526,65.618 35.966,81.196 "></polygon><path d="M43.167,65.618L33.155,52.127c0,0-4.145-5.586-4.145-5.586c8.764,0,17.529,0,26.293,0c4.822,0,9.644,0,14.466,0h3.613  C68.6,34.784,54.942,28.397,36.561,28.496c10.659,6.13,10.5,10.261,9.677,13.42C32.078,31.867,17.445,42.617,7.157,25.06  c-1.102,24.981,17.767,24.645,19.91,30.281c-10.788-0.867-13.938,2.005-18.065,6.962c16.263-1.498,20.919,6.691,28.715,10.659  L43.167,65.618z" fill="#ffffff" style="fill: rgb(255, 255, 255);"></path><polygon points="81.329,65.618 69.769,81.196 81.329,81.196 92.889,65.618 81.329,50.041 69.769,50.041 "></polygon><polygon points="52.867,50.041 64.427,65.618 52.867,81.196 64.427,81.196 75.987,65.618 64.427,50.041 "></polygon></g></svg>
+                    </section>
+                </footer>
+            </section>
+        </section>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
